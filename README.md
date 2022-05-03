@@ -9,3 +9,6 @@ include(cmake/ImGui.cmake)
 target_link_libraries(${PROJECT_NAME} ImGui)
 
 ```
+
+#### Example with rendering inside ImGui window with framebuffer
+![demo image](demo.png)
